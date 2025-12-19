@@ -2,7 +2,7 @@
     {
         "id": "A001",
         "nama": "Kopi Bubuk 100g",
-        "harga_final": 15000,
+        "harga_final": 13500,
         "status": "Tersedia",
         "sumber": "Vendor A"
     },
@@ -15,7 +15,7 @@
     },
     {
         "id": "501",
-        "nama": "Nasi Tempong",
+        "nama": "Nasi Tempong (Recommended)",
         "harga_final": 22000,
         "status": "Tersedia",
         "sumber": "Vendor C"
