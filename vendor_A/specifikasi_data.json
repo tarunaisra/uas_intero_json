@@ -4,5 +4,35 @@
         "nm_brg": "Kopi Bubuk 100g",
         "hrg": "15000",
         "ket_stok": "ada"
+    },
+    {
+        "kd_produk": "A002",
+        "nm_brg": "Teh Hijau 50g",
+        "hrg": "12000",
+        "ket_stok": "ada"
+    },
+    {
+        "kd_produk": "A003",
+        "nm_brg": "Susu Bubuk 200g",
+        "hrg": "25000",
+        "ket_stok": "ada"
+    },
+    {
+        "kd_produk": "A004",
+        "nm_brg": "Gula Aren 100g",
+        "hrg": "18000",
+        "ket_stok": "ada"
+    },
+    {
+        "kd_produk": "A005",
+        "nm_brg": "Madu Asli 250ml",
+        "hrg": "35000",
+        "ket_stok": "ada"
+    },
+    {
+        "kd_produk": "A006",
+        "nm_brg": "Cokelat Batang 100g",
+        "hrg": "22000",
+        "ket_stok": "ada"
     }
 ]

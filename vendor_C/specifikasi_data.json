@@ -10,5 +10,65 @@
             "tax": 2000
         },
         "stock": 50
+    },
+    {
+        "id": 502,
+        "details": {
+            "name": "Ayam Goreng",
+            "category": "Food"
+        },
+        "pricing": {
+            "base_price": 25000,
+            "tax": 2500
+        },
+        "stock": 30
+    },
+    {
+        "id": 503,
+        "details": {
+            "name": "Sate Ayam",
+            "category": "Food"
+        },
+        "pricing": {
+            "base_price": 30000,
+            "tax": 3000
+        },
+        "stock": 40
+    },
+    {
+        "id": 504,
+        "details": {
+            "name": "Bakso Sapi",
+            "category": "Food"
+        },
+        "pricing": {
+            "base_price": 18000,
+            "tax": 1800
+        },
+        "stock": 60
+    },
+    {
+        "id": 505,
+        "details": {
+            "name": "Mie Goreng",
+            "category": "Food"
+        },
+        "pricing": {
+            "base_price": 22000,
+            "tax": 2200
+        },
+        "stock": 35
+    },
+    {
+        "id": 506,
+        "details": {
+            "name": "Es Teh Manis",
+            "category": "Beverage"
+        },
+        "pricing": {
+            "base_price": 8000,
+            "tax": 800
+        },
+        "stock": 100
     }
 ]

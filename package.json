@@ -1,0 +1,13 @@
+{
+  "name": "uas-intero-json",
+  "version": "1.0.0",
+  "description": "JSON Integration for UAS Interopabilitas",
+  "main": "integrator.js",
+  "scripts": {
+    "start": "node integrator.js",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

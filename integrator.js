@@ -6,10 +6,12 @@ const vendorB = require('./vendor_B/specifikasi_data.json');
 const vendorC = require('./vendor_C/specifikasi_data.json');
 
 function mapVendorA(item){
+    let harga = Number(parseInt(item.hrg, 10) || 0);
+    harga = Math.floor(harga * 0.9); // Diskon 10%
     return {
         id: String(item.kd_produk),
         nama: item.nm_brg,
-        harga_final: Number(parseInt(item.hrg, 10) || 0),
+        harga_final: harga,
         status: (item.ket_stok && String(item.ket_stok).toLowerCase() === 'ada') ? 'Tersedia' : 'Tidak Tersedia',
         sumber: 'Vendor A'
     };
@@ -19,7 +21,7 @@ function mapVendorB(item){
     return {
         id: String(item.sku),
         nama: item.productName,
-        harga_final: Number(item.price || 0),
+        harga_final: Math.floor(Number(item.price || 0)),
         status: item.isAvailable ? 'Tersedia' : 'Tidak Tersedia',
         sumber: 'Vendor B'
     };
@@ -28,10 +30,14 @@ function mapVendorB(item){
 function mapVendorC(item){
     const base = Number((item.pricing && item.pricing.base_price) || 0);
     const tax = Number((item.pricing && item.pricing.tax) || 0);
+    let nama = (item.details && item.details.name) || '';
+    if (item.details && item.details.category === 'Food') {
+        nama += ' (Recommended)';
+    }
     return {
         id: String(item.id),
-        nama: (item.details && item.details.name) || '',
-        harga_final: base + tax,
+        nama: nama,
+        harga_final: Math.floor(base + tax),
         status: (Number(item.stock) > 0) ? 'Tersedia' : 'Tidak Tersedia',
         sumber: 'Vendor C'
     };

@@ -2,7 +2,42 @@
     {
         "id": "A001",
         "nama": "Kopi Bubuk 100g",
-        "harga_final": 15000,
+        "harga_final": 13500,
+        "status": "Tersedia",
+        "sumber": "Vendor A"
+    },
+    {
+        "id": "A002",
+        "nama": "Teh Hijau 50g",
+        "harga_final": 10800,
+        "status": "Tersedia",
+        "sumber": "Vendor A"
+    },
+    {
+        "id": "A003",
+        "nama": "Susu Bubuk 200g",
+        "harga_final": 22500,
+        "status": "Tersedia",
+        "sumber": "Vendor A"
+    },
+    {
+        "id": "A004",
+        "nama": "Gula Aren 100g",
+        "harga_final": 16200,
+        "status": "Tersedia",
+        "sumber": "Vendor A"
+    },
+    {
+        "id": "A005",
+        "nama": "Madu Asli 250ml",
+        "harga_final": 31500,
+        "status": "Tersedia",
+        "sumber": "Vendor A"
+    },
+    {
+        "id": "A006",
+        "nama": "Cokelat Batang 100g",
+        "harga_final": 19800,
         "status": "Tersedia",
         "sumber": "Vendor A"
     },
@@ -15,8 +50,43 @@
     },
     {
         "id": "501",
-        "nama": "Nasi Tempong",
+        "nama": "Nasi Tempong (Recommended)",
         "harga_final": 22000,
+        "status": "Tersedia",
+        "sumber": "Vendor C"
+    },
+    {
+        "id": "502",
+        "nama": "Ayam Goreng (Recommended)",
+        "harga_final": 27500,
+        "status": "Tersedia",
+        "sumber": "Vendor C"
+    },
+    {
+        "id": "503",
+        "nama": "Sate Ayam (Recommended)",
+        "harga_final": 33000,
+        "status": "Tersedia",
+        "sumber": "Vendor C"
+    },
+    {
+        "id": "504",
+        "nama": "Bakso Sapi (Recommended)",
+        "harga_final": 19800,
+        "status": "Tersedia",
+        "sumber": "Vendor C"
+    },
+    {
+        "id": "505",
+        "nama": "Mie Goreng (Recommended)",
+        "harga_final": 24200,
+        "status": "Tersedia",
+        "sumber": "Vendor C"
+    },
+    {
+        "id": "506",
+        "nama": "Es Teh Manis",
+        "harga_final": 8800,
         "status": "Tersedia",
         "sumber": "Vendor C"
     }
