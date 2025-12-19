@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "69763289-518e-451f-a793-1dbcd3d73686",
+		"name": "Uas_Intero",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50937286",
+		"_collection_link": "https://yantiroha02-3974922.postman.co/workspace/Ahmad-Bachtiar-R's-Workspace~0b94f0b1-962a-4210-893d-b2202542048d/collection/50937286-69763289-518e-451f-a793-1dbcd3d73686?action=share&source=collection_link&creator=50937286"
+	},
+	"item": [
+		{
+			"name": "Marketplace_BWI",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
