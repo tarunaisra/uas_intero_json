@@ -1,0 +1,23 @@
+[
+    {
+        "id": "A001",
+        "nama": "Kopi Bubuk 100g",
+        "harga_final": 15000,
+        "status": "Tersedia",
+        "sumber": "Vendor A"
+    },
+    {
+        "id": "TSHIRT-001",
+        "nama": "Kaos Ijen Crater",
+        "harga_final": 75000,
+        "status": "Tersedia",
+        "sumber": "Vendor B"
+    },
+    {
+        "id": "501",
+        "nama": "Nasi Tempong",
+        "harga_final": 22000,
+        "status": "Tersedia",
+        "sumber": "Vendor C"
+    }
+]
