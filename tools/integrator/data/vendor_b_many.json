@@ -1,0 +1,5 @@
+[
+  { "sku": "TSHIRT-001", "productName": "Kaos Ijen Crater", "price": 75000, "isAvailable": true },
+  { "sku": "TSHIRT-002", "productName": "Hoodie Bajulmati", "price": 120000, "isAvailable": false },
+  { "sku": "TSHIRT-003", "productName": "Topi Keren", "price": 30000, "isAvailable": true }
+]

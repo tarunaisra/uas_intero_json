@@ -1,0 +1,5 @@
+[
+  { "kd_produk": "A001", "nm_brg": "Kopi Bubuk 100g", "hrg": "15000", "ket_stok": "ada" },
+  { "kd_produk": "A002", "nm_brg": "Teh Celup 50g", "hrg": "8000", "ket_stok": "ada" },
+  { "kd_produk": "A003", "nm_brg": "Gula Pasir 1kg", "hrg": "12000", "ket_stok": "habis" }
+]
